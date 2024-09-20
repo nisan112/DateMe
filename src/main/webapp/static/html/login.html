@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="../../login" method="POST">
+<label>Email:</label>
+<input type="email" name="email" id="email" required>
+<label>Password:</label>
+<input type="password" id="password" name="password" required>
+<button type="submit">Login</button>
+
+</form>
+ <!-- Display error message if "error" parameter is present in the query string -->
+    <p style="color:red">
+        <c:if test="${param.error != null}">
+            Invalid email or password. Please try again.
+        </c:if>
+    </p>
+</body>
+</html>

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content:flex-start;
+            
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1%;
+            background-color:yellow;
+        }
+
+        /* Profile Section Styles */
+        .profile {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .profile:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .profile h2 {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 1.5em;
+        }
+        .profile p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 1em;
+        }
+        .profile .email {
+            font-style: italic;
+        }
+        .profile .details {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .no-users {
+            text-align: center;
+            color: #999;
+            font-size: 18px;
+        }
+         #Container{
+            background-color: red;
+            width:90%;
+            height:100vh;
+        }
+        #userContainer{
+            background-color: rgb(145, 144, 142);
+            width: 40%;
+            margin-left:20%;
+            height:40%;
+            color: ghostwhite;
+        }
+        #upper{
+            background-color: rgb(220, 214, 214);
+            height:50%;
+            display: flex;
+            justify-content: center;
+        }
+        #profilepic{
+           
+            height: 90%;
+            width:27%;
+            border-radius: 50%;
+        }
+        #pp{
+            height:100%;
+            width:100%;
+            object-fit:cover;
+            border-radius: 50%;
+        }
+        #nameandage{
+           
+            display: flex;
+            justify-content:space-between;
+            height:90%;
+        }
+        #name,#age{
+          
+            width:50%;
+           
+            height:100%;
+            padding:3%;
+           font-weight: bold;
+           
+        }
+        #name{
+            font-size:x-large;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(184, 186, 188);
+            
+        }
+        #age{
+            color:rgb(172, 172, 168);
+            
+        }
+        #address{
+            height:10%;
+            
+        }
+        #text{
+            font-size: medium;
+            margin-left: 5%;
+
+        }
+        #friendreq{
+        background-color:gray;
+        width:20%;
+        position:fixed;
+        height:fit-content;
+        right:0%;}
+        #friendList{
+       background-color:red;
+     }
+    /* Style for the container div */
+#friendList {
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+/* Style for each request item */
+.requestItem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* White background for each request item */
+    border-radius: 5px;
+}
+
+/* Style for sender element */
+.requestItem .name {
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Optional: adjust font size */
+    margin-bottom: 5px; /* Space below sender */
+}
+
+/* Style for receiver and time elements */
+.requestItem .receiver,
+.requestItem .time {
+    margin-bottom: 5px; /* Space below each element */
+}
+
+/* Style for time element */
+.requestItem .time {
+    color: #666; /* Gray text color for time */
+}
+
+        
+       
